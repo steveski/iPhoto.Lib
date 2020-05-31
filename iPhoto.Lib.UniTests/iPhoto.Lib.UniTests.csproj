@@ -4,6 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <AssemblyName>Perigee.iPhoto.Lib.UniTests</AssemblyName>
+
+    <RootNamespace>Perigee.iPhoto.Lib.UniTests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

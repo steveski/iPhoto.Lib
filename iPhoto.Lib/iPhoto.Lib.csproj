@@ -1,7 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Perigee.iPhoto.Lib</AssemblyName>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PListNet" Version="3.2.0" />
+  </ItemGroup>
 
 </Project>

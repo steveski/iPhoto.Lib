@@ -8,6 +8,8 @@ namespace iPhoto.Lib.UniTests
         [Fact]
         public void Test1()
         {
+            var lib = new PropertyList();
+            lib.vlah();
 
         }
     }
