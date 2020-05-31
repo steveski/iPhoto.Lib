@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iPhoto.Lib", "iPhoto.Lib\iPhoto.Lib.csproj", "{7D2D3EC8-5EA9-46FD-9728-F27159A06FCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{18678AA0-3A3F-468E-AD44-831458F6F7B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iPhoto.Lib.UniTests", "iPhoto.Lib.UniTests\iPhoto.Lib.UniTests.csproj", "{1D817760-75F9-47F1-89EF-01A55BCDC4FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D2D3EC8-5EA9-46FD-9728-F27159A06FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2D3EC8-5EA9-46FD-9728-F27159A06FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2D3EC8-5EA9-46FD-9728-F27159A06FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2D3EC8-5EA9-46FD-9728-F27159A06FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D817760-75F9-47F1-89EF-01A55BCDC4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D817760-75F9-47F1-89EF-01A55BCDC4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D817760-75F9-47F1-89EF-01A55BCDC4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D817760-75F9-47F1-89EF-01A55BCDC4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D817760-75F9-47F1-89EF-01A55BCDC4FB} = {18678AA0-3A3F-468E-AD44-831458F6F7B0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6960F3CC-E6E2-4DB1-91B1-FE5A5D5EABFC}
+	EndGlobalSection
+EndGlobal
